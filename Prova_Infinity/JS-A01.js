@@ -1,8 +1,8 @@
-const n1 = parseFloat(prompt("Informe a 1 nota"));
+const n1 = parseFloat(prompt("Informe a nota 1"));
 
-const n2 = parseFloat(prompt("Informe a 2 nota"));
+const n2 = parseFloat(prompt("Informe a nota 2"));
 
-const n3 = parseFloat(prompt("Informe a 3 nota"));
+const n3 = parseFloat(prompt("Informe a nota 3"));
 
 const media = (n1 + n2 + n3) / 3 ;
 
