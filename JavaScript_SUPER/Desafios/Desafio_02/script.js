@@ -45,17 +45,8 @@ switch (menu){
         console.log("A área do círculo é: " + area)
         break
     case "5":
-        if(!menu === "5"){
         console.log("Saindo do programa")
-        } else {
-            menu;
-        }
         break
     default:
-        if(!menu == false){
-        console.log("Opção Inválida")  
-        } else {
-            menu
-        }
-         
+        console.log("Opção Inválida")    
 }
