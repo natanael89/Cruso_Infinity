@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <form method="dialog">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+            <label for="">Cidade:</label>
+            <select name="cidade" id="cidade">
+                <option value="salvador">Salvador</option>
+                <option value="rioDeJaneiro">Rio de janeiro</option>
+                <option value="saoPpaulo">São Paulo</option>
+                <option value="beloHorizonte">Belo Horizonte</option>
+                <option value="curitiba">Curitiba</option>
+            </select>
+            <!--Coloquei essa div para poder estilar o button radio-->
+            <div class="but-radio">
+                <label for="sexo">Sexo:</label>
+                <input class="input_raido" type="radio" name="sexo" id="sexo" value="masculino">Masculino
+                <input class="input_radio" type="radio" name="sexo" id="sexo" value="feminino">Feminino
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset" value="Limpar">Limpar</button>
+        </form>
+    </div>
+</body>
+</html>

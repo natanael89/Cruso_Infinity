@@ -1,0 +1,56 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 24px;
+}
+
+div form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div label {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div input {
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div input:focus {
+    outline: none;
+}
+
+.but-radio{
+   margin-top:10px ;
+}
+
+div select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div select:focus {
+    outline: none;
+}
+
+
+
+div button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
