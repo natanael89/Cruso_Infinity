@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1>Pokédex</h1>
+        </div>
+        <div>
+            <div class="search">
+                <input type="text" id="search" class="search-input" placeholder="Nome do Pokémon ou Número">
+                <button class="search-btn" id="search-btn">Procurar</button>
+            </div>
+            <div id="error-message" class="error-message"></div>
+        </div>
+    </header>
+    <main>
+        
+        <section class="pokedex">
+            <div id="pokemon-container" class="pokemon-container"></div>
+
+            <div id="load-more-container" class="load-more-container">
+                <button id="load-more-btn" class="load-more-btn">Carregar mais</button>
+            </div>
+        </section>
+    </main>
+    <div id="pokemon-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="pokemon-details" class="pokemon-details"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pokédex Inc. Todos os direitos reservados</p>
+    </footer>
+    <script src="./api.js"></script>
+    
+   
+</body>
+</html>
