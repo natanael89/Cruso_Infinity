@@ -1,0 +1,66 @@
+.heros {
+    width: 100%;
+    height: 520px;
+    padding: 0 30px;  
+    background-image: url("https://www.hardware.com.br/wp-content/uploads/2023/08/cfr0z3n_vector_art_synthwave_llama_typing_on_a_laptop_ee7e1f3d-7509-4cc2-9a46-15841f4da40b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -40px;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    
+}
+
+.heros-content {
+    color: white;
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 10%;
+}
+
+.heros::after {
+    width: 100%;
+    height: 700px;
+   
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media (max-width: 320px) {
+    .heros {
+        width: 100%;
+        height: auto;
+    }
+    
+    .heros::after {
+        width: 100%;
+        height: 700px;
+        background-image: url("https://www.hardware.com.br/wp-content/uploads/2023/08/cfr0z3n_vector_art_synthwave_llama_typing_on_a_laptop_ee7e1f3d-7509-4cc2-9a46-15841f4da40b.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .heros-content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 10px;
+    }
+
+}
