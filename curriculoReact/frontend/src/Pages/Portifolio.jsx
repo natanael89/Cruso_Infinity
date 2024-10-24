@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 
-const Top10 = () => {
+const Portfolio = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Top 10 Developers</h1>
+            <h1>Portfólio</h1>
         </div>
-        
     )
-};
+}
 
-export default Top10;
+export default Portfolio;

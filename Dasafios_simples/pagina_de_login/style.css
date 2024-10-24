@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+// .linha {
+//     border: transparent;
+//     border-bottom: 2px solid rgb(200, 200, 200);
+//     background: transparent;
+//     transition: background 0.5s ease-in-out;
+    
+// }
+
+.pagi_login {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 45vh;
+    background-color: #262424;
+    padding: 40px;
+}
+
+.pagi_login h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #f8f0f0;
+    border: transparent;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    background: transparent;
+    transition: background 0.5s ease-in-out;
+    width: 15%;
+    
+}
+
+.pagi_login form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.pagi_login form label {
+    font-size: 18px;
+    color: #f8f0f0;
+    margin-bottom: 10px;
+    border: transparent;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    background: transparent;
+    transition: background 0.5s ease-in-out;
+    max-width: 15%;
+}
+
+.pagi_login form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #262424;
+    border: transparent;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    background: transparent;
+    
+}
+
+.pagi_login form input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(248, 40, 40);
+    color: #fff;
+}
+
+.pagi_login form input[type="submit"]:hover {
+    background-color: rgb(217, 12, 12);
+}
+
+.pagi_login form p {
+    color: #f8f0f0;
+    margin-top: 10px;
+    text-align: center;
+    border: transparent;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    background: transparent;
+    transition: background 0.5s ease-in-out;
+    max-width: 55%;
+    margin: auto;
+}

@@ -1,20 +1,23 @@
 import React from "react";
-import Header from "../Components/Common/Header/Header";
-import "./../Styles/Home.css"
-import Heros from "../Components/Container/Heros/Heros";
-import Main from "../Components/Common/Main/Main";
-import Footer from "../Components/Common/Footer/Footer";
-
+import Navbar from "../Components/Navbar/Navbar";
+import Banner from "../Components/Banner/Banner";
+import Card from "../Components/Card/Card";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
+
+
+  
+
     return (
-        <div className="home">
-            <Header />
-            <Heros/>
-            <Main/>
+        <div>
+            <Navbar/>
+            <Banner/>
+            <Card/>
+            
             <Footer/>
         </div>
     )
 }
 
-export default Home
+export default Home;
